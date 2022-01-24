@@ -1,74 +1,152 @@
 {
  {
-   "vendor": "3D FilaPrint"
+   "brand": "3D FilaPrint"
  },
  {
-   "vendor": "3D Hero"
+   "brand": "3D Hero"
  },
  {
-   "vendor": "Amolen"
+   "brand": "Amolen"
  },
  {
-   "vendor": "Anycubic"
+   "brand": "Anycubic"
  },
  {
-   "vendor": "Apium"
+   "brand": "Apium"
  },
  {
-   "vendor": "avistron"
+   "brand": "avistron"
  },
  {
-   "vendor": "ColorFabb"
+   "brand": "ColorFabb"
  },
  {
-   "vendor": "Creality 3D"
+   "brand": "Creality 3D"
  },
  {
-   "vendor": "Das Filament"
+   "brand": "Das Filament"
  },
  {
-   "vendor": "Enoteüad 3D"
+   "brand": "Enoteüad 3D"
  },
  {
-   "vendor": "Eolas Prints"
+   "brand": "Eolas Prints"
  },
  {
-   "vendor": "eSUN"
+   "brand": "eSUN"
  },
  {
-   "vendor": "extrudr"
+   "brand": "extrudr"
  },
  {
-   "vendor": "Fabru"
+   "brand": "Fabru"
  },
  {
-   "vendor": "Filamentum"
+   "brand": "Filamentum"
  },
  {
-   "vendor": "Formfutura"
+   "brand": "Formfutura"
  },
  {
-   "vendor": "Geetech"
+   "brand": "Geetech"
  },
  {
-   "vendor": "German RepRap"
+   "brand": "German RepRap"
  },
  {
-   "vendor": "Hatchbox"
+   "brand": "Hatchbox"
  },
  {
-   "vendor": "HERZ"
+   "brand": "HERZ"
  },
  {
-   "vendor": "IC3D"
+   "brand": "IC3D"
  },
  {
-   "vendor": "ICE filaments"
+   "brand": "ICE filaments"
  },
  {
-   "vendor": "Innofil3d"
+   "brand": "Innofil3d"
  },
  {
-   "vendor": "Kaisertech"
+   "brand": "Kaisertech"
  },
+ {
+   "brand": "Matterhackers"
+ },
+ {
+   "brand": "Minadax"
+ },
+ {
+   "brand": "Multec"
+ },
+ {
+   "brand": "NinjaTek"
+ },
+ {
+   "brand": "NuNus Filamente"
+ },
+ {
+   "brand": "Orbi-Tech"
+ },
+ {
+   "brand": "OWL-Filament"
+ },
+ {
+   "brand": "Patona"
+ },
+ {
+   "brand": "Plastic2Print"
+ },
+ {
+   "brand": "PrimaCreator"
+ },
+ {
+   "brand": "Pulox"
+ },
+ {
+   "brand": "Recreus"
+ },
+ {
+   "brand": "REDLINE FILAMENT"
+ },
+ {
+   "brand": "SainSmart"
+ },
+ {
+   "brand": "Smartfil"
+ },
+ {
+   "brand": "Stronghero3d"
+ },
+ {
+   "brand": "Sunlu 3D"
+ },
+ {
+   "brand": "taulman 3d"
+ },
+ {
+   "brand": "Tianse"
+ },
+ {
+   "brand": "Ultimaker"
+ },
+ {
+   "brand": "Velleman"
+ },
+ {
+   "brand": "Verbatim"
+ },
+ {
+   "brand": "Volaprint"
+ },
+ {
+   "brand": "voltio ExcelFil"
+ },
+ {
+   "brand": "XYZprinting"
+ },
+ {
+   "brand": "Zortax"
+ }
 }
