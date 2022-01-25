@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flexible Filaments</title>
+  <script src="https://unpkg.com/vue@2"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+ <script src="https://unpkg.com/vue-axios@2.1.4/dist/vue-axios.min.js"></script>
+</head>
+<body>
+  <div id="app">
+    <div>
+    <ul>
+    <!-- <li v-for="name in filaments">
+      {{ name }}
+    </li> -->
+    </ul>
+    </div>
+    <div v-for="filament in filaments">
+       <table style="width:100%; text-align: left">
+         <tr style="text-align: left;">
+           <td style="text-align: left; width: 33%">{{ filament.brand }}</td>
+         </tr>
+       </table>
+     </div>
+     <!-- {{ filaments.[0]] }} -->
+  </div>
+
+  <script>
+    // import states from "./filaments.json";
+    var app = new Vue({
+      el: '#app',
+      data: {
+        branfd: 'Ultimaker',
+        keyword: '',
+        filaments: []
+      },
+      computed: {
+    filteredList() {
+      return this.filaments.filter((filament) => {
+        return filament.brand.toLowerCase().includes(this.keyword.toLowerCase());
+      });
+    }
+  },
+      mounted(){
+         // axios.get('https://jsonplaceholder.typicode.com/filaments')
+    axios.get('https://raw.githubusercontent.com/Moorviper/filaments/main/filaments.json')
+        .then((response)=> {
+          this.filaments=response.data;
+        })
+      }
+    })
+  </script>
+</body>
+</html>
